@@ -1,5 +1,4 @@
 import { Video, Shield, FileText, Lock, Users, Clock, CheckCircle } from 'lucide-react';
-import PsyncLogo from './components/PsyncLogo';
 
 function App() {
   return (
@@ -7,7 +6,7 @@ function App() {
       <header className="fixed w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50">
         <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <PsyncLogo size={32} />
+            <img src="/psync-logo.png" alt="Psync logo" className="w-8 h-8 object-contain" />
             <span className="text-2xl font-bold text-purple-600">Psync</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -437,7 +436,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <PsyncLogo size={24} />
+                <img src="/psync-logo.png" alt="Psync logo" className="w-6 h-6 object-contain" />
                 <span className="text-xl font-bold text-white">Psync</span>
               </div>
               <p className="text-sm text-gray-400">
